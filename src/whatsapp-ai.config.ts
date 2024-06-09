@@ -9,19 +9,11 @@ const config: Config = {
             enable: true // Whether the ChatGPT model is enabled or not
         },
         DALLE: {
-            prefix: 'Sophia generate', // Prefix for the DALLE model
-            enable: true // Whether the DALLE model is enabled or not
-        },
-        DALLE: {
-            prefix: 'sophia generate', // Prefix for the DALLE model
-            enable: true // Whether the DALLE model is enabled or not
-        },
-        DALLE: {
-            prefix: 'Sophia Generate', // Prefix for the DALLE model
+            prefix: '!dalle', // Prefix for the DALLE model
             enable: true // Whether the DALLE model is enabled or not
         },
         StableDiffusion: {
-            prefix: 'Sofia', // Prefix for the StableDiffusion model
+            prefix: '!stable', // Prefix for the StableDiffusion model
             enable: true // Whether the StableDiffusion model is enabled or not
         },
         GeminiVision: {
@@ -29,39 +21,7 @@ const config: Config = {
             enable: true // Whether the GeminiVision model is enabled or not
         },
         Gemini: {
-            prefix: 'Sophia', // Prefix for the Gemini model
-            enable: true // Whether the Gemini model is enabled or not
-        },
-        Gemini: {
-            prefix: 'sophia', // Prefix for the Gemini model
-            enable: true // Whether the Gemini model is enabled or not
-        },
-        Gemini: {
-            prefix: '.Sophia', // Prefix for the Gemini model
-            enable: true // Whether the Gemini model is enabled or not
-        },
-        Gemini: {
-            prefix: '.sophia', // Prefix for the Gemini model
-            enable: true // Whether the Gemini model is enabled or not
-        },
-        Gemini: {
-            prefix: '!Sophia', // Prefix for the Gemini model
-            enable: true // Whether the Gemini model is enabled or not
-        },
-        Gemini: {
-            prefix: 'Hey Sophia', // Prefix for the Gemini model
-            enable: true // Whether the Gemini model is enabled or not
-        },
-        Gemini: {
-            prefix: 'Hi Sophia', // Prefix for the Gemini model
-            enable: true // Whether the Gemini model is enabled or not
-        },
-        Gemini: {
-            prefix: 'Hello Sophia', // Prefix for the Gemini model
-            enable: true // Whether the Gemini model is enabled or not
-        },
-        Gemini: {
-            prefix: 'hey Sophia','hello Sophia','hey sophia','hello sophia','hi Sophia', // Prefix for the Gemini model
+            prefix: '!gemini', // Prefix for the Gemini model
             enable: true // Whether the Gemini model is enabled or not
         },
         Custom: [
@@ -83,7 +43,7 @@ const config: Config = {
         /** if enable, reply to those messages start with prefix  */
         enable: true, // Whether prefix messages are enabled or not
         /** default model to use if message not starts with prefix and enable is false  */
-        defaultModel: 'Gemini' // Default model to use if no prefix is present in the message
+        defaultModel: 'ChatGPT' // Default model to use if no prefix is present in the message
     }
 };
 
