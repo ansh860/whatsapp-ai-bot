@@ -41,7 +41,7 @@ const config: Config = {
     },
     enablePrefix: {
         /** if enable, reply to those messages start with prefix  */
-        enable: false, // Whether prefix messages are enabled or not
+        enable: true, // Whether prefix messages are enabled or not
         /** default model to use if message not starts with prefix and enable is false  */
         defaultModel: 'Gemini' // Default model to use if no prefix is present in the message
     }
