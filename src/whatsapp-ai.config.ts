@@ -13,7 +13,7 @@ const config: Config = {
             enable: true // Whether the DALLE model is enabled or not
         },
         StableDiffusion: {
-            prefix: 'hey sophia', // Prefix for the StableDiffusion model
+            prefix: 'Sophia', // Prefix for the StableDiffusion model
             enable: true // Whether the StableDiffusion model is enabled or not
         },
         GeminiVision: {
@@ -21,7 +21,7 @@ const config: Config = {
             enable: true // Whether the GeminiVision model is enabled or not
         },
         Gemini: {
-            prefix: 'Sophia', // Prefix for the Gemini model
+            prefix: 'Gemini', // Prefix for the Gemini model
             enable: true // Whether the Gemini model is enabled or not
         },
         Custom: [
