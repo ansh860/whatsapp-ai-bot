@@ -9,7 +9,7 @@ const config: Config = {
             enable: true // Whether the ChatGPT model is enabled or not
         },
         DALLE: {
-            prefix: '!dalle', // Prefix for the DALLE model
+            prefix: 'Generate', 'generate', // Prefix for the DALLE model
             enable: true // Whether the DALLE model is enabled or not
         },
         StableDiffusion: {
@@ -21,7 +21,14 @@ const config: Config = {
             enable: true // Whether the GeminiVision model is enabled or not
         },
         Gemini: {
-            prefix: '!gemini', // Prefix for the Gemini model
+            prefix: '!gemini', 'Sophia', 'sophia', 'Hi Sophia', 'hi sophia', 'Hello Sophia', 'hello sophia', 
+        '.Sophia', '.sophia', 'Hey Sophia', 'hey sophia', 'Hi, Sophia', 'hi, sophia', 
+        'Hello, Sophia', 'hello, sophia', 'Hey, Sophia', 'hey, sophia', 'Greetings Sophia', 
+        'greetings sophia', 'Good morning Sophia', 'good morning sophia', 'Good evening Sophia', 
+        'good evening sophia', 'Hi there Sophia', 'hi there sophia', 'Hello there Sophia', 
+        'hello there sophia', 'Hey there Sophia', 'hey there sophia', 'Yo Sophia', 'yo sophia',
+        'Hiya Sophia', 'hiya sophia', 'Sup Sophia', 'sup sophia', 'What’s up Sophia', 
+        'what’s up sophia', 'Heya Sophia', 'heya sophia', 'Good day Sophia', 'good day sophia' // Prefix for the Gemini model
             enable: true // Whether the Gemini model is enabled or not
         },
         Custom: [
@@ -43,7 +50,7 @@ const config: Config = {
         /** if enable, reply to those messages start with prefix  */
         enable: true, // Whether prefix messages are enabled or not
         /** default model to use if message not starts with prefix and enable is false  */
-        defaultModel: 'ChatGPT' // Default model to use if no prefix is present in the message
+        defaultModel: 'Gemini' // Default model to use if no prefix is present in the message
     }
 };
 
